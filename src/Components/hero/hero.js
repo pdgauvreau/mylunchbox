@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from "@mui/material/Button";
+
 import './hero.css';
 
 function Hero (){
@@ -7,11 +9,19 @@ function Hero (){
         <div className='hero-container'>
             <div className='text-container'>
                 <h1 className='title'>
-                    Pack Your lunch.box
+                    Social Media for Food.
                 </h1>
-                <button className='pack-button'>
+                <Button 
+                variant='contained' 
+                href='/' 
+                sx={{
+                    bgcolor:'rgba(35, 65, 47, 1)',
+                    "&:hover":{bgcolor:'rgba(35, 65,47,0.9)'}
+                }} 
+                className='pack-button'
+                >
                     Pack
-                </button>
+                </Button>
             </div>  
         </div>
         </div>

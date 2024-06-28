@@ -24,15 +24,11 @@
     margin:0;
     color:rgb(0, 0, 0);
     font-size:45px;
+    text-shadow:0 0 5px white;
 }
 
 .pack-button{
-    height:25px;
-    width:50px;
-    background-color:rgba(18, 33, 24, 0.834);
-    border: none;
-    color:rgb(253, 253, 253);
-    border-radius:7px;
-    font-size:11px;
-    box-shadow: 0 0 4px black;
+    height:40px;
+    width:80px;
 }
+

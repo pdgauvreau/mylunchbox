@@ -3,7 +3,7 @@ import './Home.css';
 
 import Header from '../Components/header/header';
 import Hero from '../Components/hero/hero';
-import PagesInfo from '../Components/pagesInfo/pages'
+import Homepage from '../Components/homepage/homepage';
 import Endbar from '../Components/endbar/endbar'
 
 function Home () {
@@ -11,7 +11,7 @@ function Home () {
     <>
     <Header/>
     <Hero/>
-    <PagesInfo/>
+    <Homepage/>
     <Endbar/>
     </>
   );
