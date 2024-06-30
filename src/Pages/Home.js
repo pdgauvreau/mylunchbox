@@ -8,12 +8,12 @@ import Endbar from '../Components/endbar/endbar'
 
 function Home () {
   return (
-    <>
+    <div>
     <Header/>
     <Hero/>
     <Homepage/>
     <Endbar/>
-    </>
+    </div>
   );
 }
 

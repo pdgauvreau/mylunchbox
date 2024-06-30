@@ -1,5 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import Box from '@mui/material/Box';
 
 
 import './header.css';
@@ -7,7 +9,17 @@ import './header.css';
 function Header(){
 
     return (
-        <div className='header'>
+      <Box
+      className='box'
+      height={120}
+      bgcolor='fourth.main'>
+        <Card 
+        className='header'
+        sx ={{
+          bgcolor:'primary.main',
+          borderRadius:'30px'
+        }}
+        >
           <div className ='logo-container'>
             <h>mylunch.box</h>
           </div>
@@ -18,7 +30,8 @@ function Header(){
             <Button variant='text' href='/'  > Settings</Button>
             <Button variant='text' href='/' sx={{bgcolor:'rgba(35, 65, 47, 0.5)'}}> sign up</Button>
           </div>
-        </div>
+        </Card>
+        </Box>
     );
 }
 
