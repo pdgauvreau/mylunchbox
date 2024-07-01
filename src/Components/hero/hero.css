@@ -1,15 +1,18 @@
 
 .box{
-    padding-top:20px;
-    padding-bottom:30px;
+    padding-bottom:90px;
 }
 .h1-text{
     padding-bottom:1rem;
 }
+.body1-text{
+    padding-bottom:15px;
+}
 .cooking-button{
-    margin-top:1rem;
+    
     width:210px;
 }
+
 .hero-container{
     margin:0px;
     padding:none;

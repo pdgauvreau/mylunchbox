@@ -3,6 +3,9 @@
     src:url('../../playwrite.ttf');
   }
   
+.find-desc{
+    padding:2rem;
+}
 .tagline{
     background-color:rgba(240, 248, 255, 0);
     display:flex;
@@ -18,12 +21,24 @@
     background-size:cover;
     height:300px;
 }
+.section1-image{
+    outline:1px solid red;
+    height:300px;
+    width:800px;
+    background-position:center;
+    background-size:cover;
+    background-image:url('./howls4.jpg')
+}
 .description{
     height:100%;
     display:flex;
     flex-direction:column;
     align-content:center;
     width:100%;
+}
+
+.social-text{
+    padding:2rem;
 }
 
 .description h1{

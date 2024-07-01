@@ -28,7 +28,7 @@ function Header(){
             <Button variant='text' href='/'  > Create</Button>
             <Button variant='text' href='/'  > Share</Button>
             <Button variant='text' href='/'  > Settings</Button>
-            <Button variant='text' href='/' sx={{bgcolor:'rgba(35, 65, 47, 0.5)'}}> sign up</Button>
+            <Button variant='text' href='/' sx={{bgcolor:'tertiary.main'}}> sign up</Button>
           </div>
         </Card>
         </Box>
