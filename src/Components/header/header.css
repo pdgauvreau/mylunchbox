@@ -4,18 +4,15 @@
 }
 
 .header{
-    z-index:100;
-    position:fixed;
+    position:relative;
     top:0;
-    width:98%;
     height:80PX;
+    width:100%;
     display: flex;
     text-align: center;
     justify-content:space-between;
     align-items: center;
     margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
   }
   
 div .pages-container{
@@ -25,16 +22,21 @@ div .pages-container{
 }
 
 div .pages-container a{
-  margin-right:30px;
-  font-weight:200px;
-  color:rgb(255, 255, 255);
-  text-decoration:none;
+  margin-right:1rem;
+  color:rgb(232, 232, 232);
   font-family:Arial, Helvetica, sans-serif;
 }
+div .pages-container .sign-button{
+  color:#ffffff;
+}
 
-div .logo-container h{
+div .logo-container .logo{
+  text-decoration:none;
   padding:2rem;
-  color: rgb(255, 255, 255);
+  color: rgb(241, 241, 241);
   font-family:'playwright';
   font-weight:400;
+}
+div .logo-container .logo:hover{
+  text-shadow: 0 0#ffffff;
 }

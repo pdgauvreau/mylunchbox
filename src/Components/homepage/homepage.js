@@ -13,21 +13,21 @@ import './homepage.css';
 function Homepage(){
     return(
         <Box 
-        bgcolor={'fifth.main'}>
+        bgcolor={'tertiary.main'}>
         <Container 
         className='container'>
                 <Grid className='container-grid' container spacing='4'>
                    
-                    <Grid item xs={1.5}></Grid>
-                    <Grid item xs={9}>
+                    <Grid item xs={12}>
                         <Typography 
                         className='social-text'
                         display={'flex'} 
                         justifyContent={'center'} 
                         variant='h1' 
-                        color={'fourth.main'}>a social media for good eats</Typography>
+                        marginTop={'30px'}
+                        marginBottom={'30px'}
+                        color={'primary.main'}>a social media platform for good eats</Typography>
                     </Grid>
-                    <Grid item xs={1.5}></Grid>
                      {/* FIRST BOX */}
                     <Grid item xs={5.5}>
                         <Card className='description' elevation={8}>

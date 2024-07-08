@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './Pages/Home';
+import Profile from './Pages/profile/profile'
+import Pack from './Pages/pack/pack'
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, Route} from 'react-router-dom';
 import { createTheme, ThemeProvider } from "@mui/material";
@@ -48,6 +50,14 @@ const router = createBrowserRouter([
   {
     path:'/',
     element:<Home/>
+  },
+  {
+    path:'/profile',
+    element:<Profile/>
+  },
+  {
+    path:'/pack',
+    element:<Pack/>
   }
 ]);
 

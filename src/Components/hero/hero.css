@@ -14,18 +14,13 @@
 }
 
 .hero-container{
-    margin:0px;
-    padding:none;
     height:600px;
     width:1000px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
     box-shadow:0 0 10px inset;
     background-image:url('./howls-moving-castle.avif');
     background-position:center;
     background-size:cover;
-    opacity:70%;
+    opacity:100%;
 }
 
 .page-text{

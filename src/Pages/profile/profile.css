@@ -1,0 +1,25 @@
+.profile-container{
+    display:grid;
+    grid-template-columns:40% 40% 20%;
+}
+
+.tile-1{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+
+.pfp{
+    background-image:url('./Screenshot\ 2024-06-17\ 124245.png');
+    background-position:center;
+    background-size:cover;
+    box-shadow:0 0 10px;
+    border-radius: 50%;
+    margin:2rem;
+    width:400px;
+    height:400px;
+}
+br{
+    margin:1rem;
+}
